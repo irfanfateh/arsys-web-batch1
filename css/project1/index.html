@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Project</title>
+    <style>
+        body {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        nav,footer {
+            background-color: #ebb82d;
+        }
+
+        nav h3 {
+            word-spacing: 5px;
+            letter-spacing: 3px;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .flex1 {
+            flex: 1;
+        }
+
+        .ps-100 {
+            padding-left: 100px;
+        }
+
+        .ps-20 {
+            padding-left: 20px;
+        }
+
+        .ps-20 a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .pt-10 {
+            padding-top: 10px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .btn {
+            color: white;
+            padding: 7px;
+            background-color: rgba(0, 128, 255, 0.63);
+            border-style: none;
+        }
+
+        .bd-outset {
+            border-radius: 5px;
+            box-shadow: 1px 1px 2px 2px rgb(189, 187, 187);
+        }
+        .p-5{
+            padding: 20px;
+        }
+        .label{
+            background-color: red;
+            color: white;
+            padding: 3px;
+        }
+        .pb-20{
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="flex">
+        <div class="flex flex1 ps-100">
+            <img src="images/logo.png" width="120px" height="70px" alt="">
+            <h3>E-commerece Hub</h3>
+        </div>
+        <div class="flex1">
+            <ul>
+                <li class="inline-block ps-20 pt-10">
+                    <a href="">Home</a>
+                </li>
+                <li class="inline-block ps-20">
+                    <a href="">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="flex bd-outset p-5">
+        <div class="flex1">
+            <h6><span  class="label">New</span></h6>
+            <img src="images/c1.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="flex1">
+            <h6><span  class="label">Sold</span></h6>
+            <img src="images/c2.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="flex1">
+            <h6><span  class="label">Save 75%</span></h6>
+            <img src="images/c3.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="flex1">
+            <h6><span  class="label">New</span></h6>
+            <img src="images/c4.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+    </section>
+    <section class="flex  bd-outset p-5">
+        <div class="flex1">
+            <h6><span  class="label">New</span></h6>
+            <img src="images/c5.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="flex1">
+            <h6><span  class="label">out of Stock</span></h6>
+            <img src="images/c9.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="flex1">
+            <h6><span  class="label">New</span></h6>
+            <img src="images/c7.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="flex1">
+            <h6><span  class="label">Save 50%</span></h6>
+            <img src="images/c8.jpg" width="250px" alt="">
+            <div class="text-center">
+                <span>Price</span>
+                <span>$20</span>
+            </div>
+            <button class="btn">
+                Add to Cart
+            </button>
+        </div>
+    </section>
+    <footer class="flex pt-10 pb-20">
+        <div class="flex1 text-center">
+            <h3>Contact Us</h3>
+            <form action="">
+                <input type="email">
+                <button class="btn">Subscribe</button>
+            </form>
+        </div>
+        <div class="flex1 text-center">
+            <h3>Follow Us</h3>
+                    <img src="images/fb.png" width="50px" height="50px" alt="">
+                    <img src="ima ges/insta.png" width="50px" height="50px" alt="">
+                    <img src="images/whatsapp.png" width="50px" height="50px" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>

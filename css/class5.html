@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .a{
+            background-color: yellow;
+            padding: 5px;
+            display: inline-block;
+            height: 30px;
+        }
+        .b{
+            background-color: yellow;
+            padding: 5px;
+            display: block;
+            height: 30px;
+        }
+        div{
+            display: inline-block;
+            border: 1px solid red;
+        } */
+        .row{
+            display: flex;
+        }
+        .cell{
+            flex: 1;
+            border: 1px solid red;
+        }
+        .tableRow{
+            display: table-row;
+        }
+        .tableCell{
+            display: table-cell;
+            border: 1px solid red;
+        }
+        .dNone{
+            /* display: none; */
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum <span class="a">dolor</span> sit amet consectetur adipisicing elit. Amet pariatur iure accusamus, assumenda asperiores possimus et explicabo quas voluptatem <span class="b">dollar</span> repellendus odio voluptas fugit tempora nihil nemo. Illo placeat quisquam laudantium?</p>
+    <div>
+        <p>Something</p>
+        <p>Something</p>
+        <p>Something</p>
+        <p>Something</p>
+        <p>Something</p>
+        <p>Something</p>
+
+
+    </div>
+    <div>
+        <p>Something</p>
+    </div>
+     -->
+     <div class="row">
+        <div class="cell">
+            Something
+            <p>Something</p>
+        </div>
+        <div class="cell">
+            Something
+        </div>
+        
+        <div class="cell">
+            Something
+        </div>
+        
+        <div class="cell">
+            Something
+        </div>
+     </div>
+
+     <div class="tableRow">
+        <div class="tableCell">
+            Something
+        </div>
+        
+        <div class="tableCell">
+            Something
+        </div>
+        <div class="tableCell dNone">
+            Something
+        </div>
+        <div class="tableCell">
+            Something
+        </div>
+     </div>
+</body>
+</html>

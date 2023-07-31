@@ -1,0 +1,30 @@
+/* *{
+    background-color: blue;
+}
+h1,h2{
+    color: white;
+}
+.white{
+    background-color: white;
+}
+.text-red{
+    color: red;
+} 
+#p1{
+    background-color: whitesmoke;
+}
+*/
+/* div>p{
+    background-color: blue;
+}
+p a{
+
+} */
+
+/* h1+p{
+    background-color: blue;
+} */
+
+h1~p{
+    background-color: blue;
+}
