@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 600px;
+            /* width: 100%; */
+            margin: auto;
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            /* border-spacing: 5px 10px; */
+            /* background-color: red; */
+            empty-cells: hide;
+        }
+       
+        p:nth-child(odd){
+            color: gray;
+        }
+        .hide{
+            visibility: hidden;
+            /* display: none; */
+        }
+        table th{
+            border-bottom: 2px solid black;
+            letter-spacing: 2px;
+        }
+        table tr:hover{
+            background-color: gray;
+            cursor:help;
+        }
+        h3:hover{
+            color: rgb(181, 181, 13);
+            letter-spacing: 4px;
+            /* text-shadow: 2px 2px #ff0000; */
+            font-size: 28px;
+        }
+        input{
+            padding: 4px;
+            border: 1px solid blue;
+            border-radius: 5px;
+        }
+        input:focus{
+            background-color: pink;
+            outline: none;
+            border: 1px solid green;
+        }
+        .flex{
+            display: flex;
+        }
+        .flex1{
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="flex1">
+            this
+        </div>
+        <div class="flex1">
+            this
+        </div>
+        <div class="flex1">
+            this
+        </div>
+        <div class="flex1">
+            this
+        </div>
+    </div>
+    <input type="text">
+    <h3>E-commerece Site</h3>
+    <p class="hide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus amet aspernatur eligendi doloribus modi dignissimos hic quisquam cupiditate neque. Nulla alias consequuntur enim corporis impedit sit cumque rerum rem minus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sunt voluptate iste aut inventore laborum similique optio libero dolor soluta dignissimos doloribus est autem possimus facilis illo aperiam, deleniti voluptatibus!</p>
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus amet aspernatur eligendi doloribus modi dignissimos hic quisquam cupiditate neque. Nulla alias consequuntur enim corporis impedit sit cumque rerum rem minus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sunt voluptate iste aut inventore laborum similique optio libero dolor soluta dignissimos doloribus est autem possimus facilis illo aperiam, deleniti voluptatibus!</p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Marks</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>Muhammad Irfan</td>
+            <td>SE</td>
+            <td>4</td>
+            <td>Pass</td>
+        </tr>
+        
+        <tr>
+            <td>Muhammad Irfan</td>
+            <td>SE</td>
+            <td>4</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>Muhammad Irfan</td>
+            <td>SE</td>
+            <td>4</td>
+            <td>Pass</td>
+        </tr>
+        <tr>
+            <td>Muhammad Irfan</td>
+            <td>SE</td>
+            <td>4</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
